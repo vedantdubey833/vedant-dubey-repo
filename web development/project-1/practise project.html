@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meals on wheels</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url(/images/pizza-3007395_1280.jpg);
+            color: white;
+            font-family: 'Grandstander', cursive;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 0px;
+            top: 1px;
+            /* border: 3px solid red; */
+        }
+
+        .left img {
+            width: 345px;
+            margin-left: -47px;
+            margin-top: -14px;
+        }
+
+        .mid {
+            display: block;
+            /* border: 3px solid red; */
+            color: white;
+            width: 570px;
+            height: 50px;
+            margin: 5px auto;
+            background-color: rgb(0 0 0 / 58%);
+            border-radius: 10px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 13px;
+            right: 4px;
+            /* border: 3px solid red; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+            margin-left: 1px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(231, 214, 159);
+        }
+
+        .btn {
+            color: white;
+            background-color: rgb(0 0 0 / 23%);
+            padding: 4px 15px;
+            margin: 3px 3px;
+            border: 1px solid rgb(0 0 0 / 23%);
+            font-family: 'Grandstander', cursive;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            color: rgb(231, 214, 159);
+        }
+
+        .container {
+            border: 3px solid #09090900;
+            width: 500px;
+            margin: 130px auto;
+            padding: 0px 10px;
+            background-color:#00000054;
+            border-radius: 25px;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: white;
+            background-color: #ff300e8c;
+            width: 413px;
+            margin: 10px auto;
+            border-radius: 15px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            padding: 5px;
+            margin: 6px 126px;
+            width: 232px;
+            background-color: rgba(255, 255, 255, 0.863);
+            font-size: 15px;
+            font-family: 'Grandstander', cursive;
+            border-radius: 10px;
+        }
+
+        form .btn {
+            margin: 8px 176px;
+            width: 158px;
+            background-color: #ff300e8c;
+            font-size: 19px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box -->
+        <div class="left">
+            <img src="/images/meals on weels (1).png" alt="">
+        </div>
+        <!-- mid box -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- right box -->
+        <div class="right">
+            <button class="btn">visit us</button>
+            <button class="btn">contact us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Order your meal</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="contact no">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="address">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>

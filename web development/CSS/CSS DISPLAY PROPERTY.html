@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        img {
+            width: 115px;
+            display: block;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: cursive;
+            margin: 0px;
+            text-align: center;
+            /*this is used to cenre the text without width and margin auto*/
+        }
+
+        header {
+            margin: auto;
+            /*but margin:auto is not working here but when we provide width we can use margin:auto*/
+            border: 3px solid red;
+            width:1185px;                     /*width is used so that we can use margin auto which center our content*/
+        }
+
+        .box {
+            border: 3px solid red;
+            background-color: peachpuff;    
+            margin: 5px 0px;
+            padding: 5px;
+            display: inline-block;
+            width: 33.1%;
+        }
+        .container{
+            margin:auto;
+            width:1185px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://source.unsplash.com/WLUHO9A_xik/500x500" alt="">
+        <h2>Welcome to my page</h2>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus corrupti soluta quia corporis?
+                Quasi, dolorum! Veritatis magnam non, aperiam totam eum dolores excepturi culpa pariatur explicabo
+                corporis reiciendis ea voluptatem facere amet unde quasi!</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus corrupti soluta quia corporis?
+                Quasi, dolorum! Veritatis magnam non, aperiam totam eum dolores excepturi culpa pariatur explicabo
+                corporis reiciendis ea voluptatem facere amet unde quasi!</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus corrupti soluta quia corporis?
+                Quasi, dolorum! Veritatis magnam non, aperiam totam eum dolores excepturi culpa pariatur explicabo
+                corporis reiciendis ea voluptatem facere amet unde quasi!</p>
+        </div>
+    </div>
+</body>
+
+</html>

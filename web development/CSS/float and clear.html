@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Indie Flower', cursive;    /*this is how external fonts are added by link*/
+        
+        }
+
+        .container{
+            width:900px;
+            border: 3px solid #c88378;
+            padding: 12px 4px;
+            margin:4px auto;         /*margin: y-axis x-axis this is the format of margin*/ /*margin auto is used to allign the para in centre position in x axis*/
+            background-color:#96889112;
+        } 
+
+        .item{
+       border:3px solid #ff572273;
+       margin:10px 3px;
+       padding:2px 5px;
+       background-color: #e7e7e785;
+        }
+
+        #fruits{
+           float: left;                    /*Float makes the para float according to the side provided as here left is provided*/
+           width:47%
+
+        }
+        #computer{
+            float:right;                   /*Float makes the para float according to the side provided as here right is provided*/
+            width:50%;
+
+        }
+        #shoes{
+            clear:both;                   /*clear is used to remove the overlapping created by float or selecting left side,right side or both*/
+            /* if clear is not used then float will overlap the next item thats why clear is used */
+        }
+
+        p,h3{
+            text-align: left;        /*this allign the text to the left side*/
+            text-align: right;       /*this allign the text to the right side*/
+            text-align:center;       /*this allign the text to the center side*/  /*last command is executed always*/
+            text-align:justify;      /*this type of alingment justify the text aligment*/
+        }
+        h1{
+            border:3px solid  #c88378;
+            margin:auto 500px;       /*in margin first coordinate is for y-axis and second coordinate is for x-axis*/
+            padding-left: 68px;
+            background-color:#96889112;
+        }
+        h2{
+            margin: auto 344px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my store</h1>
+    <div class="container">
+        <h2>This is my store</h2>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum vero ab excepturi, hic magni ex! Ducimus, sed quibusdam. Est aperiam quibusdam atque illo, molestias provident quod rerum alias consequuntur?</p>
+        </div>
+
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum vero ab excepturi, hic magni ex! Ducimus, sed quibusdam. Est aperiam quibusdam atque illo, molestias provident quod rerum alias consequuntur?</p>
+        </div>
+
+        <div id="shoes" class="item">
+            <h3>shoes</h3>
+            <p id="shoespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum vero ab excepturi, hic magni ex! Ducimus, sed quibusdam. Est aperiam quibusdam atque illo, molestias provident quod rerum alias consequuntur?</p>
+        </div>
+
+        <div id="watch" class="item">
+            <h3>watches</h3>
+            <p id="watchpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum vero ab excepturi, hic magni ex! Ducimus, sed quibusdam. Est aperiam quibusdam atque illo, molestias provident quod rerum alias consequuntur?</p>
+        </div>
+    </div>
+</body>
+
+</html>

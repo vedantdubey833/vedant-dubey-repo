@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR</title>
+    <!--THIS IS EXAMPLE OF "CSS ELEMENT SELECTOR" AS ONLY PARAGRAPH IS USED AS SELECTOR-->
+    <style>
+        p {
+            color: chartreuse;
+            border: solid firebrick;   /*THIS IS HOW YOU ADD BORDER*/ 
+        }
+    </style>
+    <!--THIS IS EXAMPLE OF "CSS ID SELECTOR" AS OPERATION WILL APPLY ON PROVIDED ID ONLY-->
+    <!--IN THIS EXAMPLE ONLY THAT PARAGRAPH WAS COLOURED DIFFERENTLY WHOSE ID IS PROVIDED WITH(# SYMBOL)-->
+    <style>
+        #idcss {
+            color: crimson;
+        }
+    </style>
+    <!--THIS IS EXAMPLE OF "CSS CLASS SELECTOR" AS OPERATION WILL APPLY ON PROVIDED CLASS ONLY-->
+    <!--IN THIS EXAMPLE ONLY THAT PARAGRAPH WAS COLOURED DIFFERENTLY WHOSE CLASS IS PROVIDED WITH(. SYMBOL)-->
+    <style>
+        .classcss {
+            color: darkblue;
+        }
+    </style>
+    <!--THIS IS EXAMPLE OS "CSS GROUPING SELECTOR" WHERE MULTIPLE TAGS ARE SELECTED AT ONE TIME-->
+    <!--IN THIS EXAMPLE  THE OF BACKGROUND OF CONTENT OF FOOTER AND SPAN TAG WAS COLOURED AT SAME TIME -->
+    <style>
+        footer,span{
+            background-color: deeppink;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS SELECTOR</h3>
+    <p>This is a simple paragraph to demonstrate "css element selector"</p>
+    <p>This is a simple paragraph to demonstrate "css element selector"</p>
+    <p id="idcss">This is another simple paragraph to demonstrate "css id selector"</p>
+    <p class="classcss">This is a simple paragraph to demonstrate "css class selector"</p>
+    <span>This is anything</span>
+    <footer>This is footer</footer>
+
+
+</body>
+
+</html>

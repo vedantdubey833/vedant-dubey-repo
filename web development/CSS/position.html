@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position and all</title>
+    <style>
+        /* css positions : static(default),relative,absolute,fixed,sticky */
+        .container{
+            border:3px solid black;
+            height: 2000px;
+            background-color: peachpuff;
+        }
+        .box{
+            display:inline-block;   /*it is used to make the boxes to be appear in single line and also to use width and height*/
+            border:2px solid red;
+            width:200px;
+            height:50px;
+            margin:3px 0px;
+        }
+        #box3{
+            /* relative position mai  position of the box ko top,bottom,left,right mai move kra skte w,r,t to its original position or purani position ki jgh khali hi rh jyegi or jis box pai position property apply ki vo move ho jyega according to the property */
+            position: relative;
+
+            /*position: absolute;*/     /*postion:absolute mai box move bhi hojata hai or gapping bhi nhi bachti*/
+
+            /* top:30px; */
+            left:30px;
+        }
+        #box4{
+            position:fixed;            /*this will make the box fixed on the position which we have provided and the fixed box will not move when we scroll the tab up or down */
+            right:50px;
+            text-align: center;
+        }
+        #box1{
+            position: sticky;         /*this will stick the position of the box */
+            top:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">chat with us</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL,MARGIN AND PADDING</title>
+    <style>
+    *{
+        box-sizing: border-box;     /*this will keep the width fix*/
+    }
+    body{
+        background-color: #dcdafc;
+    }
+
+        .container{
+            background-color:  rgb(208 228 241);
+            border:4px solid rgb(43 66 77);
+            /*THIS IS HOW PADDING AND MARGIN IS DONE AND PADDING OR MARGIN CAN BE DONE SEPARETELY FOR TOP,BOTTOM,RIGHT,LEFT */
+            /*padding-right=30px;
+            padding-top=40px;
+            margin-left=40px;
+            margin-bottom-40px */
+
+
+            padding: 80px 30px 50px 100px;  /*padding: top right bottom left;*/  /*this is how we give padding according our choice at top right bottom left, BY GIVING DIFFEERNT PIXELS AT ALL SIDE */
+            margin: 14px 16px 14px 16px;    /*margin: top right bottom left;*/  /*this is how we give margin according our choice at top right bottom left, BY GIVING DIFFEERNT PIXELS AT ALL SIDE*/
+
+
+            padding:11px 14px;   /*margin or padding: X(top/bottom) Y(left/right); here top-bottom working as a pair and left-right working as another pair so we have to just two values one for X pair and one is for Y pair */        
+            border-radius: 12px;
+            width: 300px;
+            box-sizing: border-box;      /*this will keep the width fix*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="first para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam consequuntur fugit blanditiis dolor, sit culpa excepturi sunt adipisci dolore quod repudiandae maxime distinctio reiciendis? Ipsam ipsum eius veniam nesciunt fuga doloremque accusamus est atque! Ullam!</p>
+    </div>
+
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id="second para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam consequuntur fugit blanditiis dolor, sit culpa excepturi sunt adipisci dolore quod repudiandae maxime distinctio reiciendis? Ipsam ipsum eius veniam nesciunt fuga doloremque accusamus est atque! Ullam!</p>
+    </div>
+
+    <div class="container">
+    <h3>This is my heading</h3>
+    <p id=" third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam consequuntur fugit blanditiis dolor, sit culpa excepturi sunt adipisci dolore quod repudiandae maxime distinctio reiciendis? Ipsam ipsum eius veniam nesciunt fuga doloremque accusamus est atque! Ullam!</p>
+    </div>
+</body>
+</html>

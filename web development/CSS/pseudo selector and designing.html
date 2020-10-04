@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector and designing</title>
+    <style>
+        .container{
+            border:3px solid #00dcff;
+            background-color: #7ff3d34a;
+            margin:30px 350px;
+            padding:15px;   
+        }
+        a{
+            text-decoration: none;    /*this is a text decoration property which removes the underline of the hyperlink and many other things*/
+            color: black;
+        }
+        .read{
+            background-color: #d8dbe1c2;
+            padding:4px;
+            border-radius: 5px;
+            border:none;
+            cursor:pointer;             /*this is used to change the cursor according to users need  */
+            font-size: 13px;
+        }   
+        
+        a:hover{            /*tag:hover is a PSEUDO SELECTOR*/   /*tag:hover is used such that when you hover on anything it color,background color or other things you select changes while hovering*/
+            color:tomato;
+            background-color:blanchedalmond;
+            border:2px solid rgb(139, 0, 86);
+        }
+
+        button:hover{      /*tag:hover is a PSEUDO SELECTOR*/   /*Here again hover is used for button tag*/
+            color:tomato;
+            background-color:blanchedalmond;
+            border:2px solid rgb(139, 0, 69);
+        }
+
+        a:visited{         /*tag:visited is a PSEUDO SELECTOR*/   /*tag:visited changes the properties provided of the visited link*/
+            background-color: chartreuse;
+        }
+
+        a:active{          /*tag:active is a PSEUDO SELECTOR*/   /*tag:active is used while clicking on the link or button mtlb button dabate vkt vo property show hogi jo property lgynge */
+            background-color: rgba(111, 153, 243, 0.329);
+        }
+
+        button:active{          /*tag:active is a PSEUDO SELECTOR*/   /*tag:active is used while clicking on the link or button mtlb button dabate vkt vo property show hogi jo property lgynge */
+            background-color: rgba(111, 153, 243, 0.329);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis exercitationem fugiat accusamus corporis a quas dolore laborum ipsam voluptate deleniti reprehenderit aspernatur aliquam dicta amet ut autem modi unde velit voluptates sapiente cumque enim repudiandae, eligendi iure. Quibusdam, voluptate nostrum.</p>
+        <a href="http://google.com" class="read">Read more</a>
+        <button class="read">contact us</button>
+        
+    </div>
+</body>
+</html>

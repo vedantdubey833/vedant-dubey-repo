@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline external and internal css</title>
+
+    <!--THIS IS HOW EXTERNAL CSS WORK AND PREFERED LASTLY AFTER INLINE AND INTERNAL CCS-->
+    <link rel="stylesheet" href="revision1.css">
+
+    <!--THIS IS HOW INTERNAL CSS WORK BUT THERE IS IMPORTANT TAG BECAUSE IN THIS CODE INLINE CSS IS ALSO PRESENT WHICH IS PREFERED OVER INTERNAL CSS AND INTERNAL CSS IS KEPT INSIDE HEAD TAG IN "<STYLE> TAG"-->
+
+    <!--IF WE REMOVE IMPORTANT TAG  INLINE CSS IS PREFERED-->
+    <style>
+        p{
+            color: lightcoral; 
+            background-color: rgb(178, 32, 32) ;
+        } 
+    </style>
+
+</head>
+<body>
+    <!--THIS IS HOW INLINE CSS WORKS AND IT IS PREFERED MORE THAN INTERNAL AND EXTERNAL CSS IF USED-->
+
+    <!--INLINE CSS IS ADDED TO ELEMENT DIRECTLY USING STYLE ATTRIBUTE-->
+    <h3 style="color:brown;background-color: cornsilk;">THIS IS VEDANT'S WEB PAGE</h3>
+    <p style="color:rgb(183, 0, 255);background-color:rgb(149, 202, 202);"  >Lorem ipsum dolor sit amet</p>
+    
+</body>
+</html>

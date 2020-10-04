@@ -1,0 +1,32 @@
+p{
+    color: pink;
+}
+.ek{
+    color: yellow;
+    background-color: red;
+}
+#three{
+    color: royalblue;
+}
+#four{
+    color: saddlebrown;
+}
+#five{
+    color: seagreen;
+}
+#six{
+    color: yellow;
+}
+#seven{
+    color: blue;
+}
+#eight{
+    color: crimson;
+}
+#nine{
+    color: lawngreen;
+}
+/* this is how css grouping selector used and work */
+strong,em{
+    background-color: violet;
+}

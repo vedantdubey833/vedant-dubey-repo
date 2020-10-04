@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revision</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: bisque;
+        }
+        .container{
+            border:3px solid palevioletred;
+            padding: 0px 5px;
+            margin: 3px 3px;
+        }
+        .heading{
+            margin: 7px 603px;
+        }
+        .head{
+            border:3px solid red;
+            width: 450px;
+            height: 300px;
+            margin: auto;
+        }
+        .fruits{
+            float: left;
+            border: 2px solid black;
+            margin:3px 10px;
+            padding-right:14px;
+            background-color: rgb(205, 245, 255);
+        }
+        .vegies{
+            float:left;
+            border: 2px solid black;
+            margin:3px 10px;
+            padding-right:14px;
+            background-color: rgb(205, 245, 255);
+
+
+        }
+        .dairy{
+            float:left;
+            border: 2px solid black;
+            margin:3px 10px;
+            padding-right:14px;
+            background-color: rgb(205, 245, 255);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin-left: -17px;
+            line-height: 50px;
+        }
+        .navigation{
+            background-color: rgb(132 221 255 / 72%);
+        }
+              
+        }
+        .navigation ul{
+            overflow:auto;
+        }
+        .navigation li{
+            float:left;
+            list-style: none;
+            margin: 3px 43px;
+        }
+        .search{
+            float: right;
+            margin: 16px 23px ;
+        }
+        .searchone{
+            padding-left: 65px;
+            width: 190px;
+            border-radius: 5px;
+            border:3px solid red;
+            color:blue;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header >
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">dairy products</li>
+                <li><a href="#">fruits</a></li>
+                <li><a href="#">vegetables</a></li>
+                <li><a href="#">contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" class="searchone" placeholder="search">
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container" id="cont">
+        <h2 class="heading">welcome to my food store</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eius consequuntur? Labore exercitationem ipsam, rerum iure architecto velit ad molestias ex optio quae officiis facilis commodi itaque consectetur. Eos magnam ducimus eligendi, soluta quidem quae nihil porro atque at dolorum, rerum ut sequi, amet non. Labore, facere! Tempore id perspiciatis delectus nulla inventore soluta, maxime vero, quam, cumque exercitationem provident.</p>
+    </div>
+    <header class="head" id="one">
+       <div class="fruits" >
+        <h3>fruits</h3>
+        <ul  type="circle">
+            <li>mango</li>
+            <li>grapes</li>
+            <li>banana</li>
+            <li>pineapple</li>
+            <li>apple</li>
+            <a  href="" class="anchor">go to fruits</a>
+        </ul>
+        </div> 
+
+        <div class="vegies">
+        <h3>vegetables</h3>
+        <ul type="circle">
+            <li>potato</li>
+            <li>tomato</li>
+            <li>beans</li>
+            <li>bottle god </li>
+            <li>brocoli</li>
+            <a href="">go to vegies</a>
+        </ul>
+    </div>
+
+        <div class="dairy">
+        <h3>dairy</h3>
+        <ul type="circle">
+            <li>milk</li>
+            <li>cheese</li>
+            <li>curd</li>
+            <li>butter</li>
+            <li>butter milk</li>
+            <a href="">go to dairy</a>
+        </ul>
+    </div>
+    </header>
+    
+</body>
+</html>
